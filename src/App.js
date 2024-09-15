@@ -10,7 +10,7 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <Router>
-      <NavBar /> {/* Adiciona a barra de navegação */}
+      <NavBar />
       <Routes>
         <Route path="/cadastro-fornecedor" element={<CadastroFornecedor />} />
         <Route path="/cadastro-contato" element={<CadastroContato />} />
